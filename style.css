@@ -1,0 +1,273 @@
+:root{
+    --black:#151515;
+    --white:white;
+    --bg-color:#F0F0F0;
+}
+@font-face {
+    font-family: 'neue';
+   src:url('./font/NeueMachina-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+.container, .container-fluid{
+    padding: 0;
+}
+
+body{
+    font-family: 'neue';
+    background-color: var(--bg-color);
+}
+#navbar a{
+    color: #151515;
+}
+.image{
+    width: 52px;
+}
+#custom-toggler{
+    border: 0;
+}
+#custom-toggler span{
+    font-size: 1.5rem;
+}
+.button-container{
+    display: flex;
+    
+}
+.button-container button{
+    border-radius: 0;
+    padding: 0.5rem 0.75rem;
+}
+.button-container button:nth-child(1){
+    background-color: var(--white);
+    margin-right:1.5rem;
+
+}
+.button-container button:nth-child(2){
+    background-color: var(--black);
+    color: var(--white);
+}
+
+
+
+
+.section-1{
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+body .container:nth-child(2) form input , body .container:nth-child(2) form button{
+    border-radius: 0;
+}
+.section-1 .form-input{
+    margin-bottom: 4.5rem;
+}
+.input{
+    border: 0;
+    width: 50%;
+}
+.section-1 button{
+    color: var(--white);
+    background-color: var(--black);
+    font-size: 18px;
+}
+.section-2{
+    margin-bottom: 8rem;
+}
+ .button{
+    border: 1px solid #000000;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+}
+.section-2 ul{
+    padding: 0;
+    margin-left: 1.2rem;
+    margin-bottom: 0;
+}
+.section-2 li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+
+.section-3{
+    margin-bottom: 8rem;
+}
+.section-3 .col-10 p:nth-child(1){
+    font-size: 28px;
+    margin-bottom: 0.75rem;
+}
+
+.section-3 .row div{
+    padding: 0;
+}
+
+
+
+.section-4{
+    margin-bottom: 8rem;
+}
+.section-4-text {
+    text-align: right;
+}
+
+.plan{
+    padding: 0;
+}
+.plan:nth-child(1){
+   color: var(--black);
+   border: 1px solid var(--black);
+}
+.plan:nth-child(2){
+    background-color: var(--black);
+    color: white;
+}
+.plan:nth-child(3){
+    background-color: white;
+    color: var(--black);
+}
+
+.plan{
+    min-width: fit-content;
+}
+.plan-price{
+    display: flex;
+    
+    flex-direction: column;
+    
+    padding: 2rem;
+}
+.plan-price p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.plan-price .row{
+    margin-bottom: 2rem;
+}
+.plan-price ul{
+    padding: 0;
+    margin: 0;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+.plan-price button{
+    width: 100%;
+    padding: 1rem 2rem;
+    border: 0;
+    font-size: 18px;
+}
+li::marker
+{
+    font-size: 28px;
+}
+.plan-price ul li{
+    margin-bottom: 2rem;
+    list-style: square;
+    font-size: 18px;
+}
+.dollar,.time,.price-tag{
+   font-weight: 800;
+   font-size: 20px;
+   padding: 0;
+}
+.price-tag{
+    font-size: 80px;
+    line-height: 1rem;
+}
+
+
+
+.section-5{
+    margin-bottom: 8rem;
+}
+.accordion-item button , .accordion-body{
+    background-color: var(--bg-color);
+    font-size: 18px;
+}
+.accordion-item button{
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+
+.footer-main{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+input::placeholder{
+    color: var(--black);
+}
+.footer{
+    padding: 3rem 0 2rem 0;
+}
+.footer .row:nth-child(1){
+    margin-bottom: 8rem;
+}
+.footer input, .footer button{
+    padding: 0.5rem;
+    border-radius: 0;
+    border: 0;
+}
+.footer button{
+    background-color: var(--black);
+    color: white;
+    border: 1px solid white;
+}
+.footer-2 ul{
+    padding: 0;
+    list-style: none;
+    
+}
+.footer-2 ul li{
+    margin-bottom: 2rem;
+}
+.footer-2 a{
+    text-decoration: none;
+    color: rgb(194, 186, 186);
+}
+/* .footer-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     gap: 4rem; 
+}*/
+.footer-2>*{
+    flex: 1;
+    min-width: fit-content;
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-icons a{
+    color: white;
+    font-size: 1.25rem;
+    
+}
+
+
+.section-1-p{
+    font-size: 55px;
+    line-height: 75px;
+    margin-bottom: 2.5rem;
+}
+.section-2-p , .section-3-p , .section-4-p, .section-5-p{
+font-size: 40px;
+line-height: 40px;
+margin-bottom: 2rem;
+}
+.footer-p{
+    font-size: 52px;
+    line-height: 52px;
+    margin-bottom: 2rem;
+}
+
+@media(max-width:992px)
+{
+    .section-1-p , .section-2-p , .section-3-p , .section-4-p , .section-5-p , .footer-p{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
